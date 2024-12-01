@@ -37,9 +37,7 @@ for i in range(len(col1)):
         counter += 1
         res2.append(col1[i] * counter)
     else:
-        pass
-
-# PARTE 2
+        pass# PARTE 2
 counter = 0
 
 res2 = []
