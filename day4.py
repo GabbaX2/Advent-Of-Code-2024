@@ -18,7 +18,7 @@ def main():
         (-1, -2, -3, -1, -2, -3)  # Diagonale secondaria (da destra a sinistra)
     }
 
-    # Conteggio della parola "XMAS" in tutte le direzioni
+    # PARTE 1
     xmas_count = sum(
         grid.get((i + u, j + x)) == "M" and
         grid.get((i + v, j + y)) == "A" and
@@ -29,7 +29,7 @@ def main():
     )
     print(xmas_count)
 
-    # Conteggio delle occorrenze della sequenza "AMS" in forma di croce
+    # PARTE 2
     ams_cross_count = sum(
         1
         for (i, j) in grid
